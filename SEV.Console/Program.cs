@@ -7,11 +7,12 @@ namespace SEV.TestConsole
         private static void Main()
         {
             Console.ForegroundColor = CCInfo;
-            Console.WriteLine($"{Environment.NewLine}SEV Client API Example Code C# .Net Core{Environment.NewLine}");
+            Console.WriteLine("SEV Client API Example Code C# .Net Core");
+            Console.WriteLine();
             ActionSeporator();
             Console.ForegroundColor = CCInfo;
             Console.WriteLine("See our API documentation website on URL:");
-            Console.WriteLine("https://sev-api.allservices.nl");
+            Console.WriteLine("https://prepaid.allservices.nl/api");
             Console.ForegroundColor = CCDefault;
             ActionSeporator();
 

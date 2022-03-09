@@ -2,4 +2,4 @@
 
 For more information please see one of our API manual website:
 
-For SEV allservices : https://sev-api.allservices.nl
+For SEV allservices : https://prepaid.allservices.nl/api
