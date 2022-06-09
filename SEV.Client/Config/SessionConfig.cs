@@ -15,7 +15,7 @@ namespace SEV.Client.Config
 
         public SessionConfig(string userName, string password)
         {
-            BaseUrl = new Uri("https://prepaid.allservices.nl/");
+            BaseUrl = new Uri("https://prepaid.allservices.nl/api/");
 
             var logonRequest = new RequestLogin().Login(BaseUrl, userName, password);
             logonRequest.Wait();
