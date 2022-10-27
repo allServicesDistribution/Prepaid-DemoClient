@@ -54,8 +54,14 @@ namespace SEV.Client.DTO
         [JsonProperty(PropertyName = "ImageURL")]
         public string ImageURL { get; set; }
 
-        [JsonProperty(PropertyName = "NonRecurringCost")]
-        public decimal NonRecurringCost { get; set; }
+        [JsonProperty(PropertyName = "Purpose")]
+        public string Purpose { get; set; }
+
+        [JsonProperty(PropertyName = "VatType")]
+        public string VatType { get; set; }
+
+        [JsonProperty(PropertyName = "FaceValueVatType")]
+        public string FaceValueVatType { get; set; }
 
         [JsonProperty(PropertyName = "ProductProperties")]
         public HashSet<ProductProperty> ProductProperties { get; set; }
